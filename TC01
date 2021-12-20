@@ -1,0 +1,17 @@
+
+package program;
+
+public class Global {
+         int a=50;
+	public  void m1() {
+		System.out.println(a);
+		
+	}
+
+	public static void main(String[] args) {
+		Global d=new Global();
+		d.m1();
+		d.m1();
+		
+	}
+}
